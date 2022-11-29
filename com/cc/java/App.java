@@ -24,13 +24,13 @@ public class App {
 		// System.out.println(carMakers);
 		// System.out.println(carMakers.size());
 		
-		// // Daten aus AL lesen
+		// // // Daten aus AL lesen
 		// System.out.println(carMakers.get(0));
 		
 		// System.out.println("");
 		// System.out.println("------- Iteration 1 -----------");
 
-		// // Iteration 1
+		// Iteration 1
 		// for (int i = 0; i < carMakers.size(); i++) {
 		// 	System.out.print(carMakers.get(i) + " ");
 		// }
@@ -40,7 +40,7 @@ public class App {
 		
 		// // Iteration 2
 		// for (String element : carMakers) {
-		// 	System.out.print(element + " ");
+		// 	System.out.println(element + " ");
 		// }	
 		
 		// // Daten in AL ersetzen / Überschreiben
@@ -54,7 +54,8 @@ public class App {
 		// Collections.sort(carMakers);
 		// System.out.println(carMakers);
 		// System.out.println(carMakers.get(0));
-		
+		// System.out.println(carMakers.get(1));
+
 		// // Daten entfernen (JS --> pop(); J --> remove())
 		
 		// carMakers.remove(0);
@@ -71,18 +72,20 @@ public class App {
 		
 		// ArrayList<String> strList = new ArrayList<>();
 		// ArrayList<int> intList = new ArrayList<>();
-		// Lösung: Wrapper
+		// // Lösung: Wrapper
 		
 		// int boo = 2;
-		// Integer boo = 2;
-		// System.out.println("Inhalt: " + boo.intValue());
+		Integer boo = 2;
+		System.out.println("Inhalt: " + boo.intValue());
 		
-		// ArrayList<Integer> intList = new ArrayList<>();
-		// intList.add(10);
-		// intList.add(11);
-		// intList.add(12);
+		ArrayList<Integer> intList = new ArrayList<>();
+		intList.add(10);
+		intList.add(11);
+		intList.add(12);
+		for (Integer element : intList) {
+			System.out.println(element);
+		}
 		
-		// System.out.println(intList);
 		
 	
 	}
